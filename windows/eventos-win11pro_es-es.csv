@@ -1,5 +1,10 @@
+1;x;El hipervisor se inició correctamente
+4;x;El volumen NTFS se montó correctamente
+5;x;El archivo del Registro del usuario está cargado en ...
+9;x;NTFS examinó el mapa de bits del volumen completo
 1100;The event logging service has shut down;Se cerró el servicio de registro de eventos
 1101;Audit events have been dropped by the transport;El transporte quitó algunos eventos de auditoría
+
 1102;The audit log was cleared;x
 1104;The security Log is now full;x
 1105;Event log automatic backup;x
@@ -57,8 +62,8 @@
 4693;Recovery of data protection master key was attempted;x
 4694;Protection of auditable protected data was attempted;x
 4695;Unprotection of auditable protected data was attempted;x
-4696;A primary token was assigned to process;x
-4697;A service was installed in the system;x
+4696;A primary token was assigned to process;Se asignó un símbolo (token) primario al proceso
+4697;A service was installed in the system;Se instaló un servicio en el sistema
 4698;A scheduled task was created;x
 4699;A scheduled task was deleted;x
 4700;A scheduled task was enabled;x
@@ -153,9 +158,9 @@
 4792;An LDAP query group was deleted;x
 4793;The Password Policy Checking API was called;x
 4794;An attempt was made to set the Directory Services Restore Mode administrator password;x
-4797;An attempt was made to query the existence of a blank password for an account;x
-4798;A user's local group membership was enumerated;x
-4799;A security-enabled local group membership was enumerated;x
+4797;An attempt was made to query the existence of a blank password for an account;Se ha realizado un intento de consultar la existencia de una contraseña en blanco para una cuenta
+4798;A user's local group membership was enumerated;Se enumeró la pertenencia a grupos locales de un usuario
+4799;A security-enabled local group membership was enumerated;Se enumeró la pertenencia a grupos locales con seguridad habilitada
 4800;The workstation was locked;x
 4801;The workstation was unlocked;x
 4802;The screen saver was invoked;x
@@ -170,7 +175,7 @@
 4823;NTLM authentication failed because access control restrictions are required;x
 4824;Kerberos preauthentication by using DES or RC4 failed because the account was a member of the Protected User group;x
 4825;A user was denied the access to Remote Desktop. By default, users are allowed to connect only if they are members of the Remote Desktop Users group or Administrators group;x
-4826;Boot Configuration Data loaded;x
+4826;Boot Configuration Data loaded;Se cargaron los datos de configuración de arranque
 4830;SID History was removed from an account;x
 4864;A namespace collision was detected;x
 4865;A trusted forest information entry was added;x
@@ -209,11 +214,11 @@
 4898;Certificate Services loaded a template;x
 4899;A Certificate Services template was updated;x
 4900;Certificate Services template security was updated;x
-4902;The Per-user audit policy table was created;x
-4904;An attempt was made to register a security event source;x
-4905;An attempt was made to unregister a security event source;x
+4902;The Per-user audit policy table was created;Se creó la tabla de directiva de auditoría por usuario
+4904;An attempt was made to register a security event source;Se intentó registrar un origen de evento de seguridad
+4905;An attempt was made to unregister a security event source;Se intentó anular el registro de un origen de evento de seguridad
 4906;The CrashOnAuditFail value has changed;x
-4907;Auditing settings on object were changed;x
+4907;Auditing settings on object were changed;Se cambió la configuración de auditoría en un objeto
 4908;Special Groups Logon table modified;x
 4909;The local policy settings for the TBS were changed;x
 4910;The group policy settings for the TBS were changed;x
@@ -260,7 +265,7 @@
 4983;An IPsec Extended Mode negotiation failed;x
 4984;An IPsec Extended Mode negotiation failed;x
 4985;The state of a transaction has changed;x
-5024;The Windows Firewall Service has started successfully;x
+5024;The Windows Firewall Service has started successfully;El servicio Firewall de Windows se inició correctamente
 5025;The Windows Firewall Service has been stopped;x
 5027;The Windows Firewall Service was unable to retrieve the security policy from the local storage;x
 5028;The Windows Firewall Service was unable to parse the new security policy;x
@@ -268,7 +273,7 @@
 5030;The Windows Firewall Service failed to start;x
 5031;The Windows Firewall Service blocked an application from accepting incoming connections on the network;x
 5032;Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network;x
-5033;The Windows Firewall Driver has started successfully;x
+5033;The Windows Firewall Driver has started successfully;El controlador de Firewall de Windows se inició correctamente
 5034;The Windows Firewall Driver has been stopped;x
 5035;The Windows Firewall Driver failed to start;x
 5037;The Windows Firewall Driver detected critical runtime error. Terminating;x
@@ -288,8 +293,8 @@
 5051;A file was virtualized;x
 5056;A cryptographic self test was performed;x
 5057;A cryptographic primitive operation failed;x
-5058;Key file operation;x
-5059;Key migration operation;x
+5058;Key file operation;Operación de archivo de clave
+5059;Key migration operation;Operación de migración de claves
 5060;Verification operation failed;x
 5061;Cryptographic operation;x
 5062;A kernel-mode cryptographic self test was performed;x
@@ -314,12 +319,12 @@
 5137;A directory service object was created;x
 5138;A directory service object was undeleted;x
 5139;A directory service object was moved;x
-5140;A network share object was accessed;x
+5140;A network share object was accessed;Se tuvo acceso a un objeto de recurso compartido de red
 5141;A directory service object was deleted;x
-5142;A network share object was added;x
+5142;A network share object was added;Se agregó un objeto de recurso compartido de red
 5143;A network share object was modified;x
 5144;A network share object was deleted;x
-5145;A network share object was checked to see whether client can be granted desired access;x
+5145;A network share object was checked to see whether client can be granted desired access;Se comprobó un objeto de recurso compartido de red para averiguar si se puede conceder el acceso deseado al cliente
 5146;The Windows Filtering Platform has blocked a packet;x
 5147;A more restrictive Windows Filtering Platform filter has blocked a packet;x
 5148;The Windows Filtering Platform has detected a DoS attack and entered a defensive mode. Packets associated with this attack will be discarded;x
@@ -340,10 +345,10 @@
 5376;Credential Manager credentials were backed up;x
 5377;Credential Manager credentials were restored from a backup;x
 5378;The requested credentials delegation was disallowed by policy;x
-5379;Credential Manager credentials were read;x
+5379;Credential Manager credentials were read;Las credenciales del Administrador de credenciales se leyeron
 5380;Vault Find Credential;x
-5381;Vault credentials were read;x
-5382;Vault credentials were read;x
+5381;Vault credentials were read;Se leyeron las credenciales de bóveda
+5382;Vault credentials were read;Se leyeron las credenciales de bóveda
 5440;The following callout was present when the Windows Filtering Platform Base Filtering Engine started;x
 5441;The following filter was present when the Windows Filtering Platform Base Filtering Engine started;x
 5442;The following provider was present when the Windows Filtering Platform Base Filtering Engine started;x
@@ -411,7 +416,7 @@
 6409;BranchCache: A service connection point object could not be parsed;x
 6410;Code integrity determined that a file does not meet the security requirements to load into a process. This could be due to the use of shared sections or other issues;x
 6416;A new external device was recognized by the system;x
-6417;The FIPS mode crypto selftests succeeded;x
+6417;The FIPS mode crypto selftests succeeded;Las pruebas criptográficas automáticas del modo FIPS se realizaron correctamente
 6418;The FIPS mode crypto selftests failed;x
 6419;A request was made to disable a device;x
 6420;A device was disabled;x
