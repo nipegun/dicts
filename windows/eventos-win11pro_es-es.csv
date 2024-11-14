@@ -5,167 +5,167 @@
 1100;The event logging service has shut down;Se cerró el servicio de registro de eventos
 1101;Audit events have been dropped by the transport;El transporte quitó algunos eventos de auditoría
 
-1102;The audit log was cleared;x
+1102;The audit log was cleared;Se borró el registro de auditoría
 1104;The security Log is now full;x
 1105;Event log automatic backup;x
 1108;The event logging service encountered an error;x
-4608;Windows is starting up;Se está iniciando Windows
-4609;Windows is shutting down;x
+4608;Windows is starting up;Windows se está iniciando
+4609;Windows is shutting down;Windows se está apagando
 4610;An authentication package has been loaded by the Local Security Authority;La autoridad de seguridad local cargó un paquete de autenticación
 4611;A trusted logon process has been registered with the Local Security Authority;Se registró un proceso de inicio de sesión de confianza con la autoridad de seguridad local
-4612;Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits;x
+4612;Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits;Los recursos internos asignados para la cola de mensajes de auditoría se han agotado, provocando la pérdida de algunas auditorías
 4614;A notification package has been loaded by the Security Account Manager;El Administrador de cuentas de seguridad cargó un paquete de notificación
-4615;Invalid use of LPC port;x
+4615;Invalid use of LPC port;Uso no válido de puerto LPC
 4616;The system time was changed;Se cambió la hora del sistema
-4618;A monitored security event pattern has occurred;x
-4621;Administrator recovered system from CrashOnAuditFail;x
+4618;A monitored security event pattern has occurred;Se ha producido un patrón de evento de seguridad supervisado
+4621;Administrator recovered system from CrashOnAuditFail;El administrador recuperó el sistema del error CrashOnAuditFail. Los usuarios que no sean administradores podrán iniciar sesión ahora. Es posible que no se haya registrado alguna actividad de auditoría.
 4622;A security package has been loaded by the Local Security Authority;La autoridad de seguridad local cargó un paquete de seguridad
 4624;An account was successfully logged on;Se inició sesión correctamente en una cuenta
-4625;An account failed to log on;x
+4625;An account failed to log on;No se pudo iniciar sesión en una cuenta
 4626;User/Device claims information;x
 4627;Group membership information;x
-4634;An account was logged off;x
-4646;IKE DoS-prevention mode started;x
-4647;User initiated logoff;x
+4634;An account was logged off;Se cerró sesión en una cuenta
+4646;IKE DoS-prevention mode started;Se inició el modo de prevención contra DoS de IKE
+4647;User initiated logoff;Cierre de sesión iniciada por el usuario
 4648;A logon was attempted using explicit credentials;Se intentó iniciar sesión con credenciales explícitas
-4649;A replay attack was detected;x
-4650;An IPsec Main Mode security association was established;x
-4651;An IPsec Main Mode security association was established;x
+4649;A replay attack was detected;Se detectó un ataque de reproducción. Puede ser un falso positivo inofensivo debido a un error de configuración
+4650;An IPsec Main Mode security association was established;Se estableció una asociación de seguridad de modo principal de IPsec. No se habilitó el modo extendido. No se usó la autenticación de certificado
+4651;An IPsec Main Mode security association was established;Se estableció una asociación de seguridad de modo principal de IPsec. No se habilitó el modo extendido. Se usó un certificado para la autenticación
 4652;An IPsec Main Mode negotiation failed;x
-4653;An IPsec Main Mode negotiation failed;x
-4654;An IPsec Quick Mode negotiation failed;x
-4655;An IPsec Main Mode security association ended;x
-4656;A handle to an object was requested;x
-4657;A registry value was modified;x
-4658;The handle to an object was closed;x
-4659;A handle to an object was requested with intent to delete;x
-4660;An object was deleted;x
-4661;A handle to an object was requested;x
-4662;An operation was performed on an object;x
-4663;An attempt was made to access an object;x
-4664;An attempt was made to create a hard link;x
-4665;An attempt was made to create an application client context;x
-4666;An application attempted an operation;x
-4667;An application client context was deleted;x
-4668;An application was initialized;x
+4653;An IPsec Main Mode negotiation failed;Error de negociación de modo principal de IPsec
+4654;An IPsec Quick Mode negotiation failed;Error de negociación de modo rápido de IPsec
+4655;An IPsec Main Mode security association ended;Finalizó una asociación de seguridad de modo principal de IPsec
+4656;A handle to an object was requested;Se solicitó un identificador para un objeto
+4657;A registry value was modified;Se modificó un valor del Registro
+4658;The handle to an object was closed;Se cerró un identificador para un objeto
+4659;A handle to an object was requested with intent to delete;Se solicitó un identificador para un objeto con intención de eliminarlo
+4660;An object was deleted;Se eliminó un objeto
+4661;A handle to an object was requested;Se solicitó un identificador para un objeto
+4662;An operation was performed on an object;Se realizó una operación en un objeto
+4663;An attempt was made to access an object;se ha intentado obtener acceso a un objeto
+4664;An attempt was made to create a hard link;Se intentó crear un vínculo físico
+4665;An attempt was made to create an application client context;Se intentó crear un contexto de cliente de aplicación
+4666;An application attempted an operation;Una aplicación intentó una operación
+4667;An application client context was deleted;Se eliminó un contexto de cliente de aplicación
+4668;An application was initialized;Se inicializó una aplicación
 4670;Permissions on an object were changed;Se cambiaron los permisos de un objeto
-4671;An application attempted to access a blocked ordinal through the TBS;x
+4671;An application attempted to access a blocked ordinal through the TBS;Una aplicación intentó tener acceso a un ordinal bloqueado a través de TBS
 4672;Special privileges assigned to new logon;Se asignaron privilegios especiales a un nuevo inicio de sesión
-4673;A privileged service was called;x
-4674;An operation was attempted on a privileged object;x
-4675;SIDs were filtered;x
+4673;A privileged service was called;Se llamó a un servicio con privilegios
+4674;An operation was attempted on a privileged object;Se intentó una operación en un objeto con privilegios
+4675;SIDs were filtered;Se filtraron SID
 4688;A new process has been created;Se creó un nuevo proceso
-4689;A process has exited;x
-4690;An attempt was made to duplicate a handle to an object;x
-4691;Indirect access to an object was requested;x
-4692;Backup of data protection master key was attempted;x
-4693;Recovery of data protection master key was attempted;x
-4694;Protection of auditable protected data was attempted;x
-4695;Unprotection of auditable protected data was attempted;x
+4689;A process has exited;Un proceso ha terminado
+4690;An attempt was made to duplicate a handle to an object;Se intentó duplicar un identificador en un objeto
+4691;Indirect access to an object was requested;Se solicitó acceso indirecto a un objeto
+4692;Backup of data protection master key was attempted;Se intentó hacer una copia de seguridad de la clave maestra de protección de datos
+4693;Recovery of data protection master key was attempted;Se intentó recuperar la clave maestra de protección de datos
+4694;Protection of auditable protected data was attempted;Se intentó proteger los datos protegidos que se pueden auditar
+4695;Unprotection of auditable protected data was attempted;Se intentó desproteger los datos protegidos que se pueden auditar
 4696;A primary token was assigned to process;Se asignó un símbolo (token) primario al proceso
 4697;A service was installed in the system;Se instaló un servicio en el sistema
-4698;A scheduled task was created;x
-4699;A scheduled task was deleted;x
-4700;A scheduled task was enabled;x
-4701;A scheduled task was disabled;x
-4702;A scheduled task was updated;x
+4698;A scheduled task was created;Se creó una tarea programada
+4699;A scheduled task was deleted;Se eliminó una tarea programada
+4700;A scheduled task was enabled;Se habilitó una tarea programada
+4701;A scheduled task was disabled;Se deshabilitó una tarea programada
+4702;A scheduled task was updated;Se actualizó una tarea programada
 4703;A token right was adjusted;x
-4704;A user right was assigned;x
-4705;A user right was removed;x
-4706;A new trust was created to a domain;x
-4707;A trust to a domain was removed;x
-4709;IPsec Services was started;x
-4710;IPsec Services was disabled;x
+4704;A user right was assigned;Se asignó un derecho de usuario
+4705;A user right was removed;Se quitó un derecho de usuario
+4706;A new trust was created to a domain;Se creó una nueva confianza para un dominio
+4707;A trust to a domain was removed;Se quitó una confianza de un dominio
+4709;IPsec Services was started;Se iniciaron los Servicios IPsec
+4710;IPsec Services was disabled;Se deshabilitaron los Servicios IPsec
 4711;PAStore Engine (1%);x
 4712;IPsec Services encountered a potentially serious failure;x
 4713;Kerberos policy was changed;x
 4714;Encrypted data recovery policy was changed;x
 4715;The audit policy (SACL) on an object was changed;x
 4716;Trusted domain information was modified;x
-4717;System security access was granted to an account;x
-4718;System security access was removed from an account;x
-4719;System audit policy was changed;x
-4720;A user account was created;x
-4722;A user account was enabled;x
-4723;An attempt was made to change an account's password;x
-4724;An attempt was made to reset an accounts password;x
-4725;A user account was disabled;x
-4726;A user account was deleted;x
-4727;A security-enabled global group was created;x
-4728;A member was added to a security-enabled global group;x
-4729;A member was removed from a security-enabled global group;x
-4730;A security-enabled global group was deleted;x
-4731;A security-enabled local group was created;x
-4732;A member was added to a security-enabled local group;x
-4733;A member was removed from a security-enabled local group;x
-4734;A security-enabled local group was deleted;x
-4735;A security-enabled local group was changed;x
-4737;A security-enabled global group was changed;x
-4738;A user account was changed;x
-4739;Domain Policy was changed;x
-4740;A user account was locked out;x
-4741;A computer account was created;x
-4742;A computer account was changed;x
-4743;A computer account was deleted;x
-4744;A security-disabled local group was created;x
-4745;A security-disabled local group was changed;x
-4746;A member was added to a security-disabled local group;x
-4747;A member was removed from a security-disabled local group;x
-4748;A security-disabled local group was deleted;x
-4749;A security-disabled global group was created;x
-4750;A security-disabled global group was changed;x
-4751;A member was added to a security-disabled global group;x
-4752;A member was removed from a security-disabled global group;x
-4753;A security-disabled global group was deleted;x
-4754;A security-enabled universal group was created;x
-4755;A security-enabled universal group was changed;x
-4756;A member was added to a security-enabled universal group;x
-4757;A member was removed from a security-enabled universal group;x
-4758;A security-enabled universal group was deleted;x
-4759;A security-disabled universal group was created;x
-4760;A security-disabled universal group was changed;x
-4761;A member was added to a security-disabled universal group;x
-4762;A member was removed from a security-disabled universal group;x
-4763;A security-disabled universal group was deleted;x
-4764;A groups type was changed;x
-4765;SID History was added to an account;x
-4766;An attempt to add SID History to an account failed;x
-4767;A user account was unlocked;x
-4768;A Kerberos authentication ticket (TGT) was requested;x
-4769;A Kerberos service ticket was requested;x
-4770;A Kerberos service ticket was renewed;x
-4771;Kerberos pre-authentication failed;x
-4772;A Kerberos authentication ticket request failed;x
-4773;A Kerberos service ticket request failed;x
-4774;An account was mapped for logon;x
-4775;An account could not be mapped for logon;x
-4776;The domain controller attempted to validate the credentials for an account;x
-4777;The domain controller failed to validate the credentials for an account;x
-4778;A session was reconnected to a Window Station;x
-4779;A session was disconnected from a Window Station;x
-4780;The ACL was set on accounts which are members of administrators groups;x
-4781;The name of an account was changed;x
-4782;The password hash an account was accessed;x
-4783;A basic application group was created;x
-4784;A basic application group was changed;x
-4785;A member was added to a basic application group;x
-4786;A member was removed from a basic application group;x
-4787;A non-member was added to a basic application group;x
-4788;A non-member was removed from a basic application group;x
-4789;A basic application group was deleted;x
-4790;An LDAP query group was created;x
+4717;System security access was granted to an account;Se concedió acceso de seguridad de sistema a una cuenta
+4718;System security access was removed from an account;Se quitó acceso de seguridad de sistema de una cuenta
+4719;System audit policy was changed;Se cambió la directiva de auditoría del sistema
+4720;A user account was created;Se creó una cuenta de usuario
+4722;A user account was enabled;Se habilitó una cuenta de usuario
+4723;An attempt was made to change an account's password;Se ha realizado un intento de cambiar la contraseña de una cuenta
+4724;An attempt was made to reset an accounts password;Se ha realizado un intento de restablecer la contraseña de una cuenta
+4725;A user account was disabled;Se deshabilitó una cuenta de usuario
+4726;A user account was deleted;Se eliminó una cuenta de usuario
+4727;A security-enabled global group was created;Se creó un grupo global con seguridad habilitada
+4728;A member was added to a security-enabled global group;Se agregó un miembro a un grupo global con seguridad habilitada
+4729;A member was removed from a security-enabled global group;Se quitó un miembro de un grupo global con seguridad habilitada
+4730;A security-enabled global group was deleted;Se eliminó un grupo global con seguridad habilitada
+4731;A security-enabled local group was created;Se creó un grupo local con seguridad habilitada
+4732;A member was added to a security-enabled local group;Se agregó un miembro a un grupo local con seguridad habilitada
+4733;A member was removed from a security-enabled local group;Se quitó un miembro de un grupo local con seguridad habilitada
+4734;A security-enabled local group was deleted;Se eliminó un grupo local con seguridad habilitada
+4735;A security-enabled local group was changed;Se cambió un grupo local con seguridad habilitada
+4737;A security-enabled global group was changed;Se cambió un grupo global con seguridad habilitada
+4738;A user account was changed;Se cambió una cuenta de usuario
+4739;Domain Policy was changed;Se cambió la directiva de dominio
+4740;A user account was locked out;Se bloqueó una cuenta de usuario
+4741;A computer account was created;Se cambió una cuenta de equipo
+4742;A computer account was changed;Se cambió una cuenta de equipo
+4743;A computer account was deleted;Se eliminó una cuenta de equipo
+4744;A security-disabled local group was created;Se creó un grupo local deshabilitado para seguridad
+4745;A security-disabled local group was changed;Se cambió un grupo local deshabilitado para seguridad
+4746;A member was added to a security-disabled local group;Se agregó un miembro a un grupo local deshabilitado para seguridad
+4747;A member was removed from a security-disabled local group;Se quitó un miembro de un grupo local deshabilitado para seguridad
+4748;A security-disabled local group was deleted;Se eliminó un grupo local con la seguridad deshabilitada
+4749;A security-disabled global group was created;Se creó un grupo global con la seguridad deshabilitada
+4750;A security-disabled global group was changed;Se cambió un grupo global con la seguridad deshabilitada
+4751;A member was added to a security-disabled global group;Se agregó un miembro a un grupo global con la seguridad deshabilitada
+4752;A member was removed from a security-disabled global group;Se quitó un miembro de un grupo global con la seguridad deshabilitada
+4753;A security-disabled global group was deleted;Se eliminó un grupo global con la seguridad deshabilitada
+4754;A security-enabled universal group was created;Se creó un grupo universal con la seguridad habilitada
+4755;A security-enabled universal group was changed;Se cambió un grupo universal con la seguridad habilitada
+4756;A member was added to a security-enabled universal group;Se agregó un miembro a un grupo universal con la seguridad habilitada
+4757;A member was removed from a security-enabled universal group;Se quitó un miembro de un grupo universal con la seguridad habilitada
+4758;A security-enabled universal group was deleted;Se eliminó un grupo universal con la seguridad habilitada
+4759;A security-disabled universal group was created;Se creó un grupo universal con la seguridad deshabilitada
+4760;A security-disabled universal group was changed;Se cambió un grupo universal con la seguridad deshabilitada
+4761;A member was added to a security-disabled universal group;Se agregó un miembro a un grupo universal con la seguridad deshabilitada
+4762;A member was removed from a security-disabled universal group;Se quitó un miembro de un grupo universal con la seguridad deshabilitada
+4763;A security-disabled universal group was deleted;Se eliminó un grupo universal con la seguridad deshabilitada
+4764;A groups type was changed;Se cambió el tipo de un grupo
+4765;SID History was added to an account;Se agregó el historial de SID a una cuenta
+4766;An attempt to add SID History to an account failed;Se produjo un error al intentar agregar el historial de SID a una cuenta
+4767;A user account was unlocked;Se desbloqueó una cuenta de usuario
+4768;A Kerberos authentication ticket (TGT) was requested;Se solicitó un vale de autenticación (TGT) de Kerberos
+4769;A Kerberos service ticket was requested;Se solicitó un vale de servicio Kerberos
+4770;A Kerberos service ticket was renewed;Se renovó un vale de servicio Kerberos
+4771;Kerberos pre-authentication failed;Error de autenticación previa de Kerberos
+4772;A Kerberos authentication ticket request failed;Error de solicitud de vale de autenticación de Kerberos
+4773;A Kerberos service ticket request failed;Error de solicitud de vale de servicio de Kerberos
+4774;An account was mapped for logon;Se asignó una cuenta para inicio de sesión
+4775;An account could not be mapped for logon;No se pudo asignar una cuenta para inicio de sesión
+4776;The domain controller attempted to validate the credentials for an account;El controlador de dominio intentó validar las credenciales para una cuenta
+4777;The domain controller failed to validate the credentials for an account;Error del controlador de dominio al validar las credenciales para una cuenta
+4778;A session was reconnected to a Window Station;Se reconectó una sesión a una estación de ventana
+4779;A session was disconnected from a Window Station;Se desconectó una sesión de una estación de ventana
+4780;The ACL was set on accounts which are members of administrators groups;Se estableció la ACL en cuentas que son miembros de grupos de administradores
+4781;The name of an account was changed;Se cambió el nombre de una cuenta
+4782;The password hash an account was accessed;Se accedió el hash de contraseña de una cuenta
+4783;A basic application group was created;Se creó un grupo de aplicaciones básicas
+4784;A basic application group was changed;Se cambió un grupo de aplicaciones básicas
+4785;A member was added to a basic application group;Se agregó un miembro a un grupo de aplicaciones básicas
+4786;A member was removed from a basic application group;Se quitó un miembro de un grupo de aplicaciones básicas
+4787;A non-member was added to a basic application group;Se agregó un no miembro a un grupo de aplicaciones básicas
+4788;A non-member was removed from a basic application group;Se quitó un no miembro de un grupo de aplicaciones básicas
+4789;A basic application group was deleted;Se eliminó un grupo de aplicaciones básicas
+4790;An LDAP query group was created;Se creó un grupo de consultas LDAP
 4791;A basic application group was changed;x
 4792;An LDAP query group was deleted;x
-4793;The Password Policy Checking API was called;x
-4794;An attempt was made to set the Directory Services Restore Mode administrator password;x
+4793;The Password Policy Checking API was called;Se ha llamado a la API de comprobación de directiva de contraseñas
+4794;An attempt was made to set the Directory Services Restore Mode administrator password;Se intentó establecer el Modo de restauración de servicios de directorio
 4797;An attempt was made to query the existence of a blank password for an account;Se ha realizado un intento de consultar la existencia de una contraseña en blanco para una cuenta
 4798;A user's local group membership was enumerated;Se enumeró la pertenencia a grupos locales de un usuario
 4799;A security-enabled local group membership was enumerated;Se enumeró la pertenencia a grupos locales con seguridad habilitada
-4800;The workstation was locked;x
-4801;The workstation was unlocked;x
-4802;The screen saver was invoked;x
-4803;The screen saver was dismissed;x
-4816;RPC detected an integrity violation while decrypting an incoming message;x
+4800;The workstation was locked;Se bloqueó la estación de trabajo
+4801;The workstation was unlocked;Se desbloqueó la estación de trabajo
+4802;The screen saver was invoked;Se invocó el protector de pantalla
+4803;The screen saver was dismissed;Se descartó el protector de pantalla
+4816;RPC detected an integrity violation while decrypting an incoming message;RPC detectó una infracción de integridad al descifrar un mensaje entrante
 4817;Auditing settings on object were changed;x
 4818;Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy;x
 4819;Central Access Policies on the machine have been changed;x
@@ -177,27 +177,27 @@
 4825;A user was denied the access to Remote Desktop. By default, users are allowed to connect only if they are members of the Remote Desktop Users group or Administrators group;x
 4826;Boot Configuration Data loaded;Se cargaron los datos de configuración de arranque
 4830;SID History was removed from an account;x
-4864;A namespace collision was detected;x
-4865;A trusted forest information entry was added;x
-4866;A trusted forest information entry was removed;x
-4867;A trusted forest information entry was modified;x
-4868;The certificate manager denied a pending certificate request;x
-4869;Certificate Services received a resubmitted certificate request;x
-4870;Certificate Services revoked a certificate;x
-4871;Certificate Services received a request to publish the certificate revocation list (CRL);x
-4872;Certificate Services published the certificate revocation list (CRL);x
-4873;A certificate request extension changed;x
-4874;One or more certificate request attributes changed;x
-4875;Certificate Services received a request to shut down;x
-4876;Certificate Services backup started;x
-4877;Certificate Services backup completed;x
-4878;Certificate Services restore started;x
-4879;Certificate Services restore completed;x
-4880;Certificate Services started;x
-4881;Certificate Services stopped;x
-4882;The security permissions for Certificate Services changed;x
-4883;Certificate Services retrieved an archived key;x
-4884;Certificate Services imported a certificate into its database;x
+4864;A namespace collision was detected;Se detectó una colisión de espacio de nombres
+4865;A trusted forest information entry was added;Se agregó una entrada de información de bosque de confianza
+4866;A trusted forest information entry was removed;Se eliminó una entrada de información de bosque de confianza
+4867;A trusted forest information entry was modified;Se modificó una entrada de información de bosque de confianza
+4868;The certificate manager denied a pending certificate request;El Administrador de certificados ha denegado una solicitud de certificado pendiente
+4869;Certificate Services received a resubmitted certificate request;Servicios de servidor de certificados recibieron una solicitud de certificado reenviada
+4870;Certificate Services revoked a certificate;Servicios de servidor de certificados revocó un certificado
+4871;Certificate Services received a request to publish the certificate revocation list (CRL);Servicios de servidor de certificados recibió una solicitud para publicar la lista de revocación de certificados (CRL)
+4872;Certificate Services published the certificate revocation list (CRL);Servicios de servidor de certificados publicó la lista de revocación de certificados (CRL)
+4873;A certificate request extension changed;Se cambió una extensión de solicitud de certificado
+4874;One or more certificate request attributes changed;Se cambiaron uno o varios atributos de solicitud de certificado
+4875;Certificate Services received a request to shut down;Servicios de servidor de certificados recibió una solicitud para cerrar
+4876;Certificate Services backup started;La copia de seguridad de Servicios de servidor de certificados se ha iniciado
+4877;Certificate Services backup completed;Se ha completado la copia de seguridad de Servicios de servidor certificados
+4878;Certificate Services restore started;Se inició la restauración de Servicios de servidor de certificados
+4879;Certificate Services restore completed;Se ha completado la restauración de Servicios de servidor de certificados
+4880;Certificate Services started;Servicios de servidor de certificados iniciados
+4881;Certificate Services stopped;Se detuvo Servicios de servidor de certificados
+4882;The security permissions for Certificate Services changed;Se cambiaron los permisos de seguridad para Servicios de servidor de certificados
+4883;Certificate Services retrieved an archived key;Servicios de servidor de certificados recuperó una clave archivada
+4884;Certificate Services imported a certificate into its database;Servicios de servidor de certificados importó un certificado en su base de datos
 4885;The audit filter for Certificate Services changed;x
 4886;Certificate Services received a certificate request;x
 4887;Certificate Services approved a certificate request and issued a certificate;x
