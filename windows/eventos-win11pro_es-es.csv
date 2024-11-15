@@ -198,129 +198,129 @@
 4882;The security permissions for Certificate Services changed;Se cambiaron los permisos de seguridad para Servicios de servidor de certificados
 4883;Certificate Services retrieved an archived key;Servicios de servidor de certificados recuperó una clave archivada
 4884;Certificate Services imported a certificate into its database;Servicios de servidor de certificados importó un certificado en su base de datos
-4885;The audit filter for Certificate Services changed;x
-4886;Certificate Services received a certificate request;x
-4887;Certificate Services approved a certificate request and issued a certificate;x
-4888;Certificate Services denied a certificate request;x
-4889;Certificate Services set the status of a certificate request to pending;x
-4890;The certificate manager settings for Certificate Services changed;x
-4891;A configuration entry changed in Certificate Services;x
-4892;A property of Certificate Services changed;x
-4893;Certificate Services archived a key;x
-4894;Certificate Services imported and archived a key;x
-4895;Certificate Services published the CA certificate to Active Directory Domain Services;x
-4896;One or more rows have been deleted from the certificate database;x
-4897;Role separation enabled;x
-4898;Certificate Services loaded a template;x
+4885;The audit filter for Certificate Services changed;Se cambió el filtro de auditoría para Servicios de servidor de certificados
+4886;Certificate Services received a certificate request;Servicios de servidor de certificados recibió una solicitud de certificado
+4887;Certificate Services approved a certificate request and issued a certificate;Servicios de servidor de certificados aprobó una solicitud de certificado y emitió un certificado
+4888;Certificate Services denied a certificate request;Servicios de servidor de certificados denegó una solicitud de certificado
+4889;Certificate Services set the status of a certificate request to pending;Servicios de servidor de certificados estableció el estado de una solicitud de certificado en pendiente
+4890;The certificate manager settings for Certificate Services changed;Se cambió la configuración del administrador de certificados para Servicios de servidor de certificados
+4891;A configuration entry changed in Certificate Services;Se cambió una entrada de configuración en Servicios de servidor de certificados
+4892;A property of Certificate Services changed;Se cambió una propiedad de Servicios de servidor de certificados
+4893;Certificate Services archived a key;Servicios de servidor de certificados archivó una clave
+4894;Certificate Services imported and archived a key;Servicios de servidor de certificados importó y archivó una clave
+4895;Certificate Services published the CA certificate to Active Directory Domain Services;Servicios de servidor de certificados publicó el certificado de CA en Servicios de dominio de Active Directory
+4896;One or more rows have been deleted from the certificate database;Una o más filas se han eliminado de la base de datos de certificados
+4897;Role separation enabled;Separación de roles habilitada
+4898;Certificate Services loaded a template;Servicios de servidor de certificados cargó una plantilla
 4899;A Certificate Services template was updated;x
 4900;Certificate Services template security was updated;x
 4902;The Per-user audit policy table was created;Se creó la tabla de directiva de auditoría por usuario
 4904;An attempt was made to register a security event source;Se intentó registrar un origen de evento de seguridad
 4905;An attempt was made to unregister a security event source;Se intentó anular el registro de un origen de evento de seguridad
-4906;The CrashOnAuditFail value has changed;x
+4906;The CrashOnAuditFail value has changed;Se cambió el valor de CrashOnAuditFail
 4907;Auditing settings on object were changed;Se cambió la configuración de auditoría en un objeto
-4908;Special Groups Logon table modified;x
-4909;The local policy settings for the TBS were changed;x
-4910;The group policy settings for the TBS were changed;x
+4908;Special Groups Logon table modified;Se modificó la tabla de inicio de sesión de grupos especiales
+4909;The local policy settings for the TBS were changed;Se cambió la configuración de directiva local para TBS
+4910;The group policy settings for the TBS were changed;Se cambió la configuración de directiva de grupo para TBS
 4911;Resource attributes of the object were changed;x
-4912;Per User Audit Policy was changed;x
+4912;Per User Audit Policy was changed;Se cambió la directiva de auditoría por usuario
 4913;Central Access Policy on the object was changed;x
-4928;An Active Directory replica source naming context was established;x
-4929;An Active Directory replica source naming context was removed;x
-4930;An Active Directory replica source naming context was modified;x
-4931;An Active Directory replica destination naming context was modified;x
-4932;Synchronization of a replica of an Active Directory naming context has begun;x
-4933;Synchronization of a replica of an Active Directory naming context has ended;x
-4934;Attributes of an Active Directory object were replicated;x
-4935;Replication failure begins;x
-4936;Replication failure ends;x
-4937;A lingering object was removed from a replica;x
-4944;The following policy was active when the Windows Firewall started;x
-4945;A rule was listed when the Windows Firewall started;x
-4946;A change has been made to Windows Firewall exception list. A rule was added;x
-4947;A change has been made to Windows Firewall exception list. A rule was modified;x
-4948;A change has been made to Windows Firewall exception list. A rule was deleted;x
-4949;Windows Firewall settings were restored to the default values;x
-4950;A Windows Firewall setting has changed;x
-4951;A rule has been ignored because its major version number was not recognized by Windows Firewall;x
-4952;Parts of a rule have been ignored because its minor version number was not recognized by Windows Firewall;x
-4953;A rule has been ignored by Windows Firewall because it could not parse the rule;x
-4954;Windows Firewall Group Policy settings has changed. The new settings have been applied;x
-4956;Windows Firewall has changed the active profile;x
-4957;Windows Firewall did not apply the following rule;x
-4958;Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer;x
-4960;IPsec dropped an inbound packet that failed an integrity check;x
-4961;IPsec dropped an inbound packet that failed a replay check;x
-4962;IPsec dropped an inbound packet that failed a replay check;x
-4963;IPsec dropped an inbound clear text packet that should have been secured;x
-4964;Special groups have been assigned to a new logon;x
-4965;IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI);x
-4976;During Main Mode negotiation, IPsec received an invalid negotiation packet;x
-4977;During Quick Mode negotiation, IPsec received an invalid negotiation packet;x
-4978;During Extended Mode negotiation, IPsec received an invalid negotiation packet;x
-4979;IPsec Main Mode and Extended Mode security associations were established;x
-4980;IPsec Main Mode and Extended Mode security associations were established;x
-4981;IPsec Main Mode and Extended Mode security associations were established;x
-4982;IPsec Main Mode and Extended Mode security associations were established;x
-4983;An IPsec Extended Mode negotiation failed;x
-4984;An IPsec Extended Mode negotiation failed;x
-4985;The state of a transaction has changed;x
+4928;An Active Directory replica source naming context was established;Se estableció un contexto de nomenclatura de origen de réplica de Active Directory
+4929;An Active Directory replica source naming context was removed;Se quitó un contexto de nomenclatura de origen de réplica de Active Directory
+4930;An Active Directory replica source naming context was modified;Se modificó un contexto de nomenclatura de origen de réplica de Active Directory
+4931;An Active Directory replica destination naming context was modified;Se modificó un contexto de nomenclatura de destino de réplica de Active Directory
+4932;Synchronization of a replica of an Active Directory naming context has begun;Comenzó la sincronización de una réplica de un contexto de nomenclatura de Active Directory
+4933;Synchronization of a replica of an Active Directory naming context has ended;Finalizó la sincronización de una réplica de un contexto de nomenclatura de Active Directory
+4934;Attributes of an Active Directory object were replicated;Se replicaron los atributos de un objeto de Active Directory
+4935;Replication failure begins;Empieza el error de replicación
+4936;Replication failure ends;Finaliza el error de replicación
+4937;A lingering object was removed from a replica;Se quitó un objeto persistente de una réplica
+4944;The following policy was active when the Windows Firewall started;La siguiente directiva estaba activa cuando se inició el Firewall de Windows
+4945;A rule was listed when the Windows Firewall started;Se mostró una regla al iniciarse el Firewall de Windows
+4946;A change has been made to Windows Firewall exception list. A rule was added;Se ha realizado un cambio en la lista de excepciones del Firewall de Windows. Se agregó una regla
+4947;A change has been made to Windows Firewall exception list. A rule was modified;Se ha realizado un cambio en la lista de excepciones del Firewall de Windows. Se modificó una regla
+4948;A change has been made to Windows Firewall exception list. A rule was deleted;Se ha realizado un cambio en la lista de excepciones del Firewall de Windows. Se eliminó una regla
+4949;Windows Firewall settings were restored to the default values;Los valores de configuración del Firewall de Windows se restauraron a los valores predeterminados
+4950;A Windows Firewall setting has changed;Se cambió una configuración del Firewall de Windows
+4951;A rule has been ignored because its major version number was not recognized by Windows Firewall;Se ha omitido una regla porque el Firewall de Windows no reconoció su número de versión principal
+4952;Parts of a rule have been ignored because its minor version number was not recognized by Windows Firewall;Se han omitido partes de una regla porque el Firewall de Windows no reconoció su número de versión secundaria. Se aplicarán las demás partes de la regla
+4953;A rule has been ignored by Windows Firewall because it could not parse the rule;Firewall de Windows omitió una regla porque no la pudo analizar
+4954;Windows Firewall Group Policy settings has changed. The new settings have been applied;La configuración de directiva de grupo de Firewall de Windows ha cambiado. Se aplicó la nueva configuración
+4956;Windows Firewall has changed the active profile;Firewall de Windows ha cambiado el perfil activo
+4957;Windows Firewall did not apply the following rule;Firewall de Windows no aplicó la siguiente regla
+4958;Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer;Firewall de Windows no aplicó la siguiente regla porque hacía referencia a elementos que no están configurados en este equipo
+4960;IPsec dropped an inbound packet that failed an integrity check;IPsec descartó un paquete entrante con un error en la comprobación de integridad. Si el problema continúa, podría indicar un problema de red o que se están modificando los paquetes en tránsito a este equipo
+4961;IPsec dropped an inbound packet that failed a replay check;IPsec descartó un paquete entrante con un error en la comprobación de reproducción. Si el problema continúa, podría indicar un ataque de reproducción contra este equipo
+4962;IPsec dropped an inbound packet that failed a replay check;IPsec descartó un paquete entrante con un error en la comprobación de reproducción. El paquete entrante tenía un número de secuencia demasiado bajo para asegurarse de que no fuera una reproducción
+4963;IPsec dropped an inbound clear text packet that should have been secured;IPsec descartó un paquete de texto no cifrado entrante que debería estar protegido. Esto suele deberse a que el equipo remoto cambió su directiva IPsec sin informar a este equipo. También podría ser un intento de ataque de suplantación.
+4964;Special groups have been assigned to a new logon;Se han asignado Grupos especiales un nuevo inicio de sesión
+4965;IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI);IPsec recibió un paquete de un equipo remoto con un Índice de parámetro de seguridad (SPI) incorrecto. Esto suele deberse a hardware que funciona incorrectamente y que está dañando los paquetes
+4976;During Main Mode negotiation, IPsec received an invalid negotiation packet;Durante la negociación de modo principal, IPsec recibió un paquete de negociación no válido. Si el problema continúa, podría indicar un problema de red o que se está intentando modificar o reproducir esta negociación.
+4977;During Quick Mode negotiation, IPsec received an invalid negotiation packet;Durante la negociación de modo rápido, IPsec recibió un paquete de negociación no válido. Si el problema continúa, podría indicar un problema de red o que se está intentando modificar o reproducir esta negociación
+4978;During Extended Mode negotiation, IPsec received an invalid negotiation packet;Durante la negociación de modo extendido, IPsec recibió un paquete de negociación no válido. Si el problema continúa, podría indicar un problema de red o que se está intentando modificar o reproducir esta negociación
+4979;IPsec Main Mode and Extended Mode security associations were established;Se establecieron asociaciones de seguridad de modo extendido y modo principal de IPsec
+4980;IPsec Main Mode and Extended Mode security associations were established;Se establecieron asociaciones de seguridad de modo extendido y modo principal de IPsec
+4981;IPsec Main Mode and Extended Mode security associations were established;Se establecieron asociaciones de seguridad de modo extendido y modo principal de IPsec
+4982;IPsec Main Mode and Extended Mode security associations were established;Se establecieron asociaciones de seguridad de modo extendido y modo principal de IPsec
+4983;An IPsec Extended Mode negotiation failed;Error de una negociación de modo extendido de IPsec. Se eliminó la asociación de seguridad de modo principal correspondiente
+4984;An IPsec Extended Mode negotiation failed;Error de una negociación de modo extendido de IPsec. Se eliminó la asociación de seguridad de modo principal correspondiente
+4985;The state of a transaction has changed;Se cambió el estado de una transacción
 5024;The Windows Firewall Service has started successfully;El servicio Firewall de Windows se inició correctamente
-5025;The Windows Firewall Service has been stopped;x
-5027;The Windows Firewall Service was unable to retrieve the security policy from the local storage;x
-5028;The Windows Firewall Service was unable to parse the new security policy;x
-5029;The Windows Firewall Service failed to initialize the driver;x
-5030;The Windows Firewall Service failed to start;x
-5031;The Windows Firewall Service blocked an application from accepting incoming connections on the network;x
-5032;Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network;x
+5025;The Windows Firewall Service has been stopped;El servicio de Firewall de Windows se ha detenido
+5027;The Windows Firewall Service was unable to retrieve the security policy from the local storage;El servicio de Firewall de Windows no pudo recuperar la directiva de seguridad del almacenamiento local. El servicio continuará aplicando la directiva actual
+5028;The Windows Firewall Service was unable to parse the new security policy;El servicio Firewall de Windows no pudo analizar la nueva directiva de seguridad. El servicio continuará con la directiva aplicada actualmente
+5029;The Windows Firewall Service failed to initialize the driver;El servicio Firewall de Windows no pudo inicializar el controlador. El servicio continuará aplicando la directiva actual
+5030;The Windows Firewall Service failed to start;No se pudo iniciar el servicio Firewall de Windows
+5031;The Windows Firewall Service blocked an application from accepting incoming connections on the network;El servicio Firewall de Windows impidió que una aplicación aceptara conexiones entrantes en la red
+5032;Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network;Firewall de Windows no pudo notificar al usuario que impidió que una aplicación aceptara conexiones entrantes en la red
 5033;The Windows Firewall Driver has started successfully;El controlador de Firewall de Windows se inició correctamente
-5034;The Windows Firewall Driver has been stopped;x
-5035;The Windows Firewall Driver failed to start;x
-5037;The Windows Firewall Driver detected critical runtime error. Terminating;x
-5038;Code integrity determined that the image hash of a file is not valid;x
-5039;A registry key was virtualized;x
-5040;A change has been made to IPsec settings. An Authentication Set was added;x
-5041;A change has been made to IPsec settings. An Authentication Set was modified;x
-5042;A change has been made to IPsec settings. An Authentication Set was deleted;x
-5043;A change has been made to IPsec settings. A Connection Security Rule was added;x
-5044;A change has been made to IPsec settings. A Connection Security Rule was modified;x
-5045;A change has been made to IPsec settings. A Connection Security Rule was deleted;x
-5046;A change has been made to IPsec settings. A Crypto Set was added;x
-5047;A change has been made to IPsec settings. A Crypto Set was modified;x
-5048;A change has been made to IPsec settings. A Crypto Set was deleted;x
-5049;An IPsec Security Association was deleted;x
-5050;An attempt to programmatically disable the Windows Firewall using a call to INetFwProfile.FirewallEnabled(FALSE;x
-5051;A file was virtualized;x
-5056;A cryptographic self test was performed;x
-5057;A cryptographic primitive operation failed;x
+5034;The Windows Firewall Driver has been stopped;Se detuvo el controlador de Firewall de Windows
+5035;The Windows Firewall Driver failed to start;No se pudo iniciar el controlador de Firewall de Windows
+5037;The Windows Firewall Driver detected critical runtime error. Terminating;El controlador de Firewall de Windows detectó un error en tiempo de ejecución crítico. Finalizando
+5038;Code integrity determined that the image hash of a file is not valid;Integridad de código determinó que el hash de imagen de un archivo no es válido
+5039;A registry key was virtualized;Se virtualizó una clave del Registro
+5040;A change has been made to IPsec settings. An Authentication Set was added;Se realizó un cambio en la configuración de IPsec. Se agregó un conjunto de autenticación
+5041;A change has been made to IPsec settings. An Authentication Set was modified;Se realizó un cambio en la configuración de IPsec. Se modificó un conjunto de autenticación
+5042;A change has been made to IPsec settings. An Authentication Set was deleted;Se realizó un cambio en la configuración de IPsec. Se eliminó un conjunto de autenticación
+5043;A change has been made to IPsec settings. A Connection Security Rule was added;Se realizó un cambio en la configuración de IPsec. Se agregó una regla de seguridad de conexión
+5044;A change has been made to IPsec settings. A Connection Security Rule was modified;Se realizó un cambio en la configuración de IPsec. Se modificó una regla de seguridad de conexión
+5045;A change has been made to IPsec settings. A Connection Security Rule was deleted;Se realizó un cambio en la configuración de IPsec. Se eliminó una regla de seguridad de conexión
+5046;A change has been made to IPsec settings. A Crypto Set was added;Se realizó un cambio en la configuración de IPsec. Se agregó un conjunto criptográfico
+5047;A change has been made to IPsec settings. A Crypto Set was modified;Se realizó un cambio en la configuración de IPsec. Se ha modificado un conjunto criptográfico
+5048;A change has been made to IPsec settings. A Crypto Set was deleted;Se realizó un cambio en la configuración de IPsec. Se ha eliminado un conjunto criptográfico
+5049;An IPsec Security Association was deleted;Se eliminó una asociación de seguridad de IPsec
+5050;An attempt to programmatically disable the Windows Firewall using a call to INetFwProfile.FirewallEnabled(FALSE);Se intentó deshabilitar mediante programación el Firewall de Windows con una llamada a InetFwProfile.FirewallEnabled(False)
+5051;A file was virtualized;Se virtualizó un archivo
+5056;A cryptographic self test was performed;Se realizó una prueba criptográfica automática
+5057;A cryptographic primitive operation failed;Error de operación primitiva criptográfica
 5058;Key file operation;Operación de archivo de clave
 5059;Key migration operation;Operación de migración de claves
-5060;Verification operation failed;x
-5061;Cryptographic operation;x
-5062;A kernel-mode cryptographic self test was performed;x
-5063;A cryptographic provider operation was attempted;x
-5064;A cryptographic context operation was attempted;x
-5065;A cryptographic context modification was attempted;x
-5066;A cryptographic function operation was attempted;x
-5067;A cryptographic function modification was attempted;x
-5068;A cryptographic function provider operation was attempted;x
-5069;A cryptographic function property operation was attempted;x
-5070;A cryptographic function property operation was attempted;x
+5060;Verification operation failed;Error en la operación de comprobación
+5061;Cryptographic operation;Operación criptográfica
+5062;A kernel-mode cryptographic self test was performed;Se realizó una prueba criptográfica automática en modo kernel
+5063;A cryptographic provider operation was attempted;Se intentó una operación de proveedor criptográfico
+5064;A cryptographic context operation was attempted;Se intentó una operación de contexto criptográfico
+5065;A cryptographic context modification was attempted;Se intentó modificar un contexto criptográfico
+5066;A cryptographic function operation was attempted;Se intentó una operación de función criptográfica
+5067;A cryptographic function modification was attempted;Se intentó modificar una función criptográfica
+5068;A cryptographic function provider operation was attempted;Se intentó una operación de proveedor de función criptográfica
+5069;A cryptographic function property operation was attempted;Se intentó una operación de propiedad de función criptográfica
+5070;A cryptographic function property operation was attempted;Se intentó modificar una propiedad de función criptográfica
 5071;Key access denied by Microsoft key distribution service;x
-5120;OCSP Responder Service Started;x
-5121;OCSP Responder Service Stopped;x
-5122;A Configuration entry changed in the OCSP Responder Service;x
-5123;A configuration entry changed in the OCSP Responder Service;x
-5124;A security setting was updated on OCSP Responder Service;x
-5125;A request was submitted to OCSP Responder Service;x
-5126;Signing Certificate was automatically updated by the OCSP Responder Service;x
-5127;The OCSP Revocation Provider successfully updated the revocation information;x
-5136;A directory service object was modified;x
-5137;A directory service object was created;x
-5138;A directory service object was undeleted;x
-5139;A directory service object was moved;x
+5120;OCSP Responder Service Started;Se inició el servicio de respondedor OCSP
+5121;OCSP Responder Service Stopped;Se detuvo el servicio de respondedor OCSP
+5122;A Configuration entry changed in the OCSP Responder Service;Se ha cambiado una entrada de configuración en el servicio de respondedor OCSP
+5123;A configuration entry changed in the OCSP Responder Service;Se ha cambiado una entrada de configuración en el servicio de respondedor OCSP
+5124;A security setting was updated on OCSP Responder Service;Se actualizó una configuración de seguridad en el servicio de respondedor OCSP
+5125;A request was submitted to OCSP Responder Service;Se envió una solicitud al servicio de respondedor OCSP
+5126;Signing Certificate was automatically updated by the OCSP Responder Service;El servicio de respondedor OCSP actualizó automáticamente el certificado de firma
+5127;The OCSP Revocation Provider successfully updated the revocation information;El proveedor de revocación OCSP actualizó correctamente la información de revocación
+5136;A directory service object was modified;Se modificó un objeto de servicio de directorio
+5137;A directory service object was created;Se creó un objeto de servicio de directorio
+5138;A directory service object was undeleted;Se recuperó un objeto de servicio de directorio
+5139;A directory service object was moved;Se movió un objeto de servicio de directorio
 5140;A network share object was accessed;Se tuvo acceso a un objeto de recurso compartido de red
-5141;A directory service object was deleted;x
+5141;A directory service object was deleted;Se eliminó un objeto de servicio de directorio
 5142;A network share object was added;Se agregó un objeto de recurso compartido de red
 5143;A network share object was modified;x
 5144;A network share object was deleted;x
@@ -329,45 +329,45 @@
 5147;A more restrictive Windows Filtering Platform filter has blocked a packet;x
 5148;The Windows Filtering Platform has detected a DoS attack and entered a defensive mode. Packets associated with this attack will be discarded;x
 5149;The DoS attack has subsided and normal processing is being resumed;x
-5150;The Windows Filtering Platform has blocked a packet;x
-5151;A more restrictive Windows Filtering Platform filter has blocked a packet;x
-5152;The Windows Filtering Platform blocked a packet;x
-5153;A more restrictive Windows Filtering Platform filter has blocked a packet;x
-5154;The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections;x
-5155;The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections;x
-5156;The Windows Filtering Platform has allowed a connection;x
-5157;The Windows Filtering Platform has blocked a connection;x
-5158;The Windows Filtering Platform has permitted a bind to a local port;x
-5159;The Windows Filtering Platform has blocked a bind to a local port;x
+5150;The Windows Filtering Platform has blocked a packet;La Plataforma de filtrado de Windows bloqueó un paquete
+5151;A more restrictive Windows Filtering Platform filter has blocked a packet;Un filtro más restrictivo de la Plataforma de filtrado de Windows bloqueó un paquete
+5152;The Windows Filtering Platform blocked a packet;La Plataforma de filtrado de Windows bloqueó un paquete
+5153;A more restrictive Windows Filtering Platform filter has blocked a packet;Un filtro más restrictivo de la Plataforma de filtrado de Windows bloqueó un paquete
+5154;The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections;La Plataforma de filtrado de Windows permitió que una aplicación o un servicio escuche conexiones entrantes en un puerto
+5155;The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections;La Plataforma de filtrado de Windows bloqueó una aplicación o un servicio para que no escuchara conexiones entrantes en un puerto
+5156;The Windows Filtering Platform has allowed a connection;La Plataforma de filtrado de Windows permitió una conexión
+5157;The Windows Filtering Platform has blocked a connection;La Plataforma de filtrado de Windows bloqueó una conexión
+5158;The Windows Filtering Platform has permitted a bind to a local port;La Plataforma de filtrado de Windows permitió un enlace con un puerto local
+5159;The Windows Filtering Platform has blocked a bind to a local port;La Plataforma de filtrado de Windows bloqueó un enlace con un puerto local
 5168;Spn check for SMB/SMB2 fails;x
 5169;A directory service object was modified;x
 5170;A directory service object was modified during a background cleanup task;x
-5376;Credential Manager credentials were backed up;x
-5377;Credential Manager credentials were restored from a backup;x
-5378;The requested credentials delegation was disallowed by policy;x
+5376;Credential Manager credentials were backed up;Se hizo una copia de seguridad de las credenciales del Administrador de credenciales
+5377;Credential Manager credentials were restored from a backup;Se restauraron las credenciales del Administrador de credenciales desde una copia de seguridad
+5378;The requested credentials delegation was disallowed by policy;Una directiva no permitió la delegación de credenciales solicitada
 5379;Credential Manager credentials were read;Las credenciales del Administrador de credenciales se leyeron
 5380;Vault Find Credential;x
 5381;Vault credentials were read;Se leyeron las credenciales de bóveda
 5382;Vault credentials were read;Se leyeron las credenciales de bóveda
-5440;The following callout was present when the Windows Filtering Platform Base Filtering Engine started;x
-5441;The following filter was present when the Windows Filtering Platform Base Filtering Engine started;x
-5442;The following provider was present when the Windows Filtering Platform Base Filtering Engine started;x
-5443;The following provider context was present when the Windows Filtering Platform Base Filtering Engine started;x
-5444;The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started;x
-5446;A Windows Filtering Platform callout has been changed;x
-5447;A Windows Filtering Platform filter has been changed;x
-5448;A Windows Filtering Platform provider has been changed;x
-5449;A Windows Filtering Platform provider context has been changed;x
-5450;A Windows Filtering Platform sub-layer has been changed;x
-5451;An IPsec Quick Mode security association was established;x
-5452;An IPsec Quick Mode security association ended;x
-5453;An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started;x
-5456;PAStore Engine applied Active Directory storage IPsec policy on the computer;x
-5457;PAStore Engine failed to apply Active Directory storage IPsec policy on the computer;x
-5458;PAStore Engine applied locally cached copy of Active Directory storage IPsec policy on the computer;x
-5459;PAStore Engine failed to apply locally cached copy of Active Directory storage IPsec policy on the computer;x
-5460;PAStore Engine applied local registry storage IPsec policy on the computer;x
-5461;PAStore Engine failed to apply local registry storage IPsec policy on the computer;x
+5440;The following callout was present when the Windows Filtering Platform Base Filtering Engine started;La siguiente llamada estaba presente cuando se inició el Motor de filtro de base de la Plataforma de filtrado de Windows
+5441;The following filter was present when the Windows Filtering Platform Base Filtering Engine started;El siguiente filtro estaba presente cuando se inició el Motor de filtro de base de la Plataforma de filtrado de Windows
+5442;The following provider was present when the Windows Filtering Platform Base Filtering Engine started;El siguiente proveedor estaba presente cuando se inició el Motor de filtro de base de la Plataforma de filtrado de Windows
+5443;The following provider context was present when the Windows Filtering Platform Base Filtering Engine started;El siguiente contexto de proveedor estaba presente cuando se inició el Motor de filtro de base de la Plataforma de filtrado de Windows
+5444;The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started;El siguiente nivel secundario estaba presente cuando se inició el motor de filtrado base de la plataforma de filtrado de Windows
+5446;A Windows Filtering Platform callout has been changed;Se cambió una llamada de la Plataforma de filtrado de Windows
+5447;A Windows Filtering Platform filter has been changed;Se cambió un filtro de la Plataforma de filtrado de Windows
+5448;A Windows Filtering Platform provider has been changed;Se cambió un proveedor de la Plataforma de filtrado de Windows
+5449;A Windows Filtering Platform provider context has been changed;Se cambió un contexto de proveedor de la Plataforma de filtrado de Windows
+5450;A Windows Filtering Platform sub-layer has been changed;Se ha cambiado el nivel secundario de la plataforma de filtrado de Windows
+5451;An IPsec Quick Mode security association was established;Se estableció una asociación de seguridad de modo rápido de IPsec
+5452;An IPsec Quick Mode security association ended;Finalizó una asociación de seguridad de modo rápido de IPsec
+5453;An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started;Error de negociación de IPsec con un equipo remoto. No se inició el servicio de Módulos de creación de claves de IPsec para IKE y AuthIP (IKEEXT)
+5456;PAStore Engine applied Active Directory storage IPsec policy on the computer;El motor PAStore aplicó la directiva IPsec de almacenamiento de Active Directory en el equipo
+5457;PAStore Engine failed to apply Active Directory storage IPsec policy on the computer;Error del motor PAStore al aplicar la directiva IPsec de almacenamiento de Active Directory en el equipo
+5458;PAStore Engine applied locally cached copy of Active Directory storage IPsec policy on the computer;El motor PAStore aplicó una copia almacenada en caché localmente de la directiva IPsec de almacenamiento de Active Directory en el equipo
+5459;PAStore Engine failed to apply locally cached copy of Active Directory storage IPsec policy on the computer;Error del motor PAStore al aplicar una copia almacenada en caché localmente de la directiva IPsec de almacenamiento de Active Directory en el equipo
+5460;PAStore Engine applied local registry storage IPsec policy on the computer;El motor PAStore aplicó una directiva IPsec de almacenamiento del Registro local en el equipo
+5461;PAStore Engine failed to apply local registry storage IPsec policy on the computer;Error del motor PAStore al aplicar una directiva IPsec de almacenamiento del Registro local en el equipo
 5462;PAStore Engine failed to apply some rules of the active IPsec policy on the computer;x
 5463;PAStore Engine polled for changes to the active IPsec policy and detected no changes;x
 5464;PAStore Engine polled for changes to the active IPsec policy, detected changes, and applied them to IPsec Services;x
