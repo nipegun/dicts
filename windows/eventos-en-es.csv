@@ -1,14 +1,126 @@
 IdDelEvento;MensajeEng;MensajeEsp
 1;x;El hipervisor se inició correctamente
+2;x;x
+3;x;x
+3;x;X
 4;x;El volumen NTFS se montó correctamente
-5;x;El archivo del Registro del usuario está cargado en ...
+5;x;El archivo del Registro del usuario está cargado en...
+6;x;x
+7;x;x
+8;x;x
 9;x;NTFS examinó el mapa de bits del volumen completo
+10;x;x
+11;x;x
+13;x;x
+14;x;x
+15;x;x
+16;x;x
+18;x;x
+19;x;x
+20;x;x
+26;x;x
+27;x;x
+31;x;x
+39;x;x
+40;x;x
+42;x;x
+45;x;x
+47;x;x
+48;x;x
+56;x;x
+63;x;x
+100;x;x
+101;x;x
+102;x;x
+103;x;x
+104;x;x
+105;x;x
+201;x;x
+216;x;x
+236;x;x
+238;x;x
+322;x;x
+325;x;x
+326;x;x
+327;x;x
+360;x;x
+400;x;x
+401;x;x
+404;x;x
+478;x;x
+500;x;x
+505;x;x
+573;x;x
+602;x;x
+603;x;x
+604;x;x
+605;x;x
+607;x;x
+609;x;x
+613;x;x
+614;x;x
+626;x;x
+629;x;x
+634;x;x
+638;x;x
+642;x;x
+647;x;x
+649;x;x
+658;x;x
+713;x;x
+759;x;x
+761;x;x
+785;x;x
+811;x;x
+812;x;x
+818;x;x
+819;x;x
+854;x;x
+855;x;x
+1000;x;x
+1001;x;x
+1002;x;x
+1014;x;x
+1025;x;x
+1097;x;x
 1100;The event logging service has shut down;Se cerró el servicio de registro de eventos
 1101;Audit events have been dropped by the transport;El transporte quitó algunos eventos de auditoría
 1102;The audit log was cleared;Se borró el registro de auditoría
 1104;The security Log is now full;x
 1105;Event log automatic backup;x
+1106;x;x
 1108;The event logging service encountered an error;x
+1254;x;x
+1400;x;x
+1402;x;x
+1403;x;x
+1501;x;x
+2028;x;x
+2151;x;x
+2152;x;x
+2153;x;x
+2413;x;x
+2414;x;x
+2415;x;x
+3000;x;x
+3001;x;x
+3004;x;x
+3005;x;x
+3006;x;x
+3007;x;x
+3008;x;x
+3009;x;x
+3013;x;x
+3049;x;x
+3052;x;x
+3053;x;x
+3054;x;x
+3055;x;x
+3056;x;x
+3057;x;x
+3058;x;x
+4104;x;x
+4126;x;x
 4608;Windows is starting up;Windows se está iniciando
 4609;Windows is shutting down;Windows se está apagando
 4610;An authentication package has been loaded by the Local Security Authority;La autoridad de seguridad local cargó un paquete de autenticación
@@ -265,6 +377,7 @@ IdDelEvento;MensajeEng;MensajeEsp
 4983;An IPsec Extended Mode negotiation failed;Error de una negociación de modo extendido de IPsec. Se eliminó la asociación de seguridad de modo principal correspondiente
 4984;An IPsec Extended Mode negotiation failed;Error de una negociación de modo extendido de IPsec. Se eliminó la asociación de seguridad de modo principal correspondiente
 4985;The state of a transaction has changed;Se cambió el estado de una transacción
+5016;x;x
 5024;The Windows Firewall Service has started successfully;El servicio Firewall de Windows se inició correctamente
 5025;The Windows Firewall Service has been stopped;El servicio de Firewall de Windows se ha detenido
 5027;The Windows Firewall Service was unable to retrieve the security policy from the local storage;El servicio de Firewall de Windows no pudo recuperar la directiva de seguridad del almacenamiento local. El servicio continuará aplicando la directiva actual
@@ -342,6 +455,8 @@ IdDelEvento;MensajeEng;MensajeEsp
 5168;Spn check for SMB/SMB2 fails;x
 5169;A directory service object was modified;x
 5170;A directory service object was modified during a background cleanup task;x
+5257;x;x
+5311;x;x
 5376;Credential Manager credentials were backed up;Se hizo una copia de seguridad de las credenciales del Administrador de credenciales
 5377;Credential Manager credentials were restored from a backup;Se restauraron las credenciales del Administrador de credenciales desde una copia de seguridad
 5378;The requested credentials delegation was disallowed by policy;Una directiva no permitió la delegación de credenciales solicitada
@@ -386,6 +501,8 @@ IdDelEvento;MensajeEng;MensajeEsp
 5483;IPsec Services failed to initialize RPC server. IPsec Services could not be started;Error de los servicios IPsec al inicializar el servidor RPC. No se pudieron iniciar los servicios IPsec
 5484;IPsec Services has experienced a critical failure and has been shut down; 	Los servicios IPsec experimentaron un error crítico y se cerraron. El cierre de los servicios IPsec puede suponer un mayor riesgo de ataque a la red para el equipo o exponerlo a posibles riesgos de seguridad
 5485;IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces;Error de los servicios IPsec al procesar algunos filtros IPsec en un evento de Plug and Play para interfaces de red
+5507;x;x
+5600;x;x
 5632;A request was made to authenticate to a wireless network;Se realizó una solicitud de autenticación en una red inalámbrica
 5633;A request was made to authenticate to a wired network;Se realizó una solicitud de autenticación en una red con cable
 5712;A Remote Procedure Call (RPC) was attempted;Se intentó una llamada a procedimiento remoto (RPC)
@@ -394,7 +511,15 @@ IdDelEvento;MensajeEng;MensajeEsp
 5888;An object in the COM+ Catalog was modified;Se modificó un objeto del catálogo COM+
 5889;An object was deleted from the COM+ Catalog;Se eliminó un objeto del catálogo COM+
 5890;An object was added to the COM+ Catalog;Se agregó un objeto al catálogo COM+
+5961;x;x
 6008;x;El cierre del sistema anterior fue inesperado
+6056;x;x
+6065;x;x
+6067;x;x
+6114;x;x
+6115;x;x
+6116;x;x
+6117;x;x
 6144;Security policy in the group policy objects has been applied successfully;Se ha aplicado correctamente la directiva de seguridad en los objetos de directiva de grupo
 6145;One or more errors occured while processing security policy in the group policy objects;Se produjo uno o más errores durante el procesamiento de la directiva de seguridad de los objetos de directiva de grupo
 6272;Network Policy Server granted access to a user;El Servidor de directivas de redes concedió acceso a un usuario
@@ -427,7 +552,29 @@ IdDelEvento;MensajeEng;MensajeEsp
 6422;A device was enabled;x
 6423;The installation of this device is forbidden by system policy;x
 6424;The installation of this device was allowed, after having previously been forbidden by policy;x
+6506;x;x
+6507;x;x
+6509;x;x
+6524;x;x
+6573;x;x
+6575;x;x
+7054;x;x
+7201;x;x
 8191;Highest System-Defined Audit Message Value;x
+8210;x;x
+9643;x;x
+9644;x;x
+9645;x;x
+9705;x;x
+9706;x;x
+9707;x;x
+9708;x;x
+10000;x;x
+10001;x;x
+10003;x;x
+16403;x;x
+22082;x;x
+22083;x;x
 24577;x;Se inició el cifrado del volumen
 24578;x;Se detuvo el cifrado del volumen
 24579;x;Se completó el cifrado del volumen
@@ -443,3 +590,16 @@ IdDelEvento;MensajeEng;MensajeEsp
 24594;x;Recompilación de metadatos: error al intentar escribir una copia de los metadatos en el volumen %2 puede aparecer como daños en el disco. Si los errores continúan, descifre el volumen
 24595;x;El volumen %2 contiene clústeres dañados. Estos clústeres se omitirán durante la conversión
 24621;x;Comprobación de estado inicial: transacción de conversión de volumen gradual en %2
+28017;x;x
+28018;x;x
+28019;x;x
+28032;x;x
+28115;x;x
+28117;x;x
+28125;x;x
+53504;x;x
+62144;x;x
+62170;x;x
+62171;x;x
+62443;x;x
+62460;x;x
