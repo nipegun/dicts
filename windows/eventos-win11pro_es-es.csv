@@ -368,41 +368,44 @@
 5459;PAStore Engine failed to apply locally cached copy of Active Directory storage IPsec policy on the computer;Error del motor PAStore al aplicar una copia almacenada en caché localmente de la directiva IPsec de almacenamiento de Active Directory en el equipo
 5460;PAStore Engine applied local registry storage IPsec policy on the computer;El motor PAStore aplicó una directiva IPsec de almacenamiento del Registro local en el equipo
 5461;PAStore Engine failed to apply local registry storage IPsec policy on the computer;Error del motor PAStore al aplicar una directiva IPsec de almacenamiento del Registro local en el equipo
-5462;PAStore Engine failed to apply some rules of the active IPsec policy on the computer;x
-5463;PAStore Engine polled for changes to the active IPsec policy and detected no changes;x
-5464;PAStore Engine polled for changes to the active IPsec policy, detected changes, and applied them to IPsec Services;x
-5465;PAStore Engine received a control for forced reloading of IPsec policy and processed the control successfully;x
-5466;PAStore Engine polled for changes to the Active Directory IPsec policy, determined that Active Directory cannot be reached, and will use the cached copy of the Active Directory IPsec policy instead;x
-5467;PAStore Engine polled for changes to the Active Directory IPsec policy, determined that Active Directory can be reached, and found no changes to the policy;x
-5468;PAStore Engine polled for changes to the Active Directory IPsec policy, determined that Active Directory can be reached, found changes to the policy, and applied those changes;x
-5471;PAStore Engine loaded local storage IPsec policy on the computer;x
-5472;PAStore Engine failed to load local storage IPsec policy on the computer;x
-5473;PAStore Engine loaded directory storage IPsec policy on the computer;x
-5474;PAStore Engine failed to load directory storage IPsec policy on the computer;x
-5477;PAStore Engine failed to add quick mode filter;x
-5478;IPsec Services has started successfully;x
-5479;IPsec Services has been shut down successfully;x
-5480;IPsec Services failed to get the complete list of network interfaces on the computer;x
-5483;IPsec Services failed to initialize RPC server. IPsec Services could not be started;x
-5484;IPsec Services has experienced a critical failure and has been shut down;x
-5485;IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces;x
-5632;A request was made to authenticate to a wireless network;x
-5633;A request was made to authenticate to a wired network;x
-5712;A Remote Procedure Call (RPC) was attempted;x
-5888;An object in the COM+ Catalog was modified;x
-5889;An object was deleted from the COM+ Catalog;x
-5890;An object was added to the COM+ Catalog;x
-6144;Security policy in the group policy objects has been applied successfully;x
-6145;One or more errors occured while processing security policy in the group policy objects;x
-6272;Network Policy Server granted access to a user;x
-6273;Network Policy Server denied access to a user;x
-6274;Network Policy Server discarded the request for a user;x
-6275;Network Policy Server discarded the accounting request for a user;x
-6276;Network Policy Server quarantined a user;x
-6277;Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy;x
-6278;Network Policy Server granted full access to a user because the host met the defined health policy;x
-6279;Network Policy Server locked the user account due to repeated failed authentication attempts;x
-6280;Network Policy Server unlocked the user account;x
+5462;PAStore Engine failed to apply some rules of the active IPsec policy on the computer;Error del motor PAStore al aplicar algunas reglas de la directiva IPsec activa en el equipo. Usa el complemento Monitor de seguridad IP para diagnosticar el problema
+5463;PAStore Engine polled for changes to the active IPsec policy and detected no changes;El motor PAStore sondeó en busca de cambios en la directiva IPsec activa y no detectó ningún cambio
+5464;PAStore Engine polled for changes to the active IPsec policy, detected changes, and applied them to IPsec Services;El motor PAStore sondeó en busca de cambios en la directiva IPsec activa, detectó cambios y los aplicó a los servicios IPsec
+5465;PAStore Engine received a control for forced reloading of IPsec policy and processed the control successfully;El motor PAStore recibió un control para la recarga forzada de la directiva IPsec y procesó el control correctamente
+5466;PAStore Engine polled for changes to the Active Directory IPsec policy, determined that Active Directory cannot be reached, and will use the cached copy of the Active Directory IPsec policy instead;El motor PAStore sondeó en busca de cambios en la directiva IPsec de Active Directory, determinó que no se podía establecer contacto con Active Directory y usará la copia almacenada en caché de la directiva IPsec de Active Directory en su lugar. No se pudieron aplicar los cambios realizados en la directiva IPsec de Active Directory desde el último sondeo
+5467;PAStore Engine polled for changes to the Active Directory IPsec policy, determined that Active Directory can be reached, and found no changes to the policy;El motor PAStore sondeó en busca de cambios en la directiva IPsec de Active Directory, determinó que se podía establecer contacto con Active Directory y no encontró ningún cambio en la directiva Ya no se usa la copia almacenada en caché de la directiva IPsec de Active Directory
+5468;PAStore Engine polled for changes to the Active Directory IPsec policy, determined that Active Directory can be reached, found changes to the policy, and applied those changes;El motor PAStore sondeó en busca de cambios en la directiva IPsec de Active Directory, determinó que se podía establecer contacto con Active Directory, encontró cambios en la directiva y los aplicó. Ya no se usa la copia almacenada en caché de la directiva IPsec de Active Directory
+5471;PAStore Engine loaded local storage IPsec policy on the computer;El motor PAStore cargó la directiva IPsec de almacenamiento local en el equipo
+5472;PAStore Engine failed to load local storage IPsec policy on the computer;Error del motor PAStore al cargar la directiva IPsec de almacenamiento local en el equipo
+5473;PAStore Engine loaded directory storage IPsec policy on the computer;El motor PAStore cargó la directiva IPsec de almacenamiento de directorio en el equipo
+5474;PAStore Engine failed to load directory storage IPsec policy on the computer;Error del motor PAStore al cargar la directiva IPsec de almacenamiento de directorio en el equipo
+5477;PAStore Engine failed to add quick mode filter;Error del motor PAStore al agregar el filtro de modo rápido
+5478;IPsec Services has started successfully;Los servicios IPsec se iniciaron correctamente
+5479;IPsec Services has been shut down successfully;Los servicios IPsec se cerraron correctamente
+5480;IPsec Services failed to get the complete list of network interfaces on the computer;Error de los servicios IPsec al obtener la lista completa de interfaces de red del equipo. Esto supone un posible riesgo de seguridad porque puede que algunas interfaces de red no obtengan la protección proporcionada por los filtros IPsec aplicados. Usa el complemento Monitor de seguridad IP para diagnosticar el problema
+5483;IPsec Services failed to initialize RPC server. IPsec Services could not be started;Error de los servicios IPsec al inicializar el servidor RPC. No se pudieron iniciar los servicios IPsec
+5484;IPsec Services has experienced a critical failure and has been shut down; 	Los servicios IPsec experimentaron un error crítico y se cerraron. El cierre de los servicios IPsec puede suponer un mayor riesgo de ataque a la red para el equipo o exponerlo a posibles riesgos de seguridad
+5485;IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces;Error de los servicios IPsec al procesar algunos filtros IPsec en un evento de Plug and Play para interfaces de red
+5632;A request was made to authenticate to a wireless network;Se realizó una solicitud de autenticación en una red inalámbrica
+5633;A request was made to authenticate to a wired network;Se realizó una solicitud de autenticación en una red con cable
+5712;A Remote Procedure Call (RPC) was attempted;Se intentó una llamada a procedimiento remoto (RPC)
+5827;x;El servicio Netlogon denegó una conexión de un canal seguro de Netlogon vulnerable desde una cuenta de máquina
+5828;x;El servicio Netlogon denegó una conexión de un canal seguro de Netlogon vulnerable mediante una cuenta de confianza
+5888;An object in the COM+ Catalog was modified;Se modificó un objeto del catálogo COM+
+5889;An object was deleted from the COM+ Catalog;Se eliminó un objeto del catálogo COM+
+5890;An object was added to the COM+ Catalog;Se agregó un objeto al catálogo COM+
+6008;x;El cierre del sistema anterior fue inesperado
+6144;Security policy in the group policy objects has been applied successfully;Se ha aplicado correctamente la directiva de seguridad en los objetos de directiva de grupo
+6145;One or more errors occured while processing security policy in the group policy objects;Se produjo uno o más errores durante el procesamiento de la directiva de seguridad de los objetos de directiva de grupo
+6272;Network Policy Server granted access to a user;El Servidor de directivas de redes concedió acceso a un usuario
+6273;Network Policy Server denied access to a user;El Servidor de directivas de redes denegó el acceso a un usuario
+6274;Network Policy Server discarded the request for a user;El Servidor de directivas de redes rechazó la solicitud de un usuario
+6275;Network Policy Server discarded the accounting request for a user;El Servidor de directivas de redes rechazó la solicitud de cuentas de un usuario
+6276;Network Policy Server quarantined a user;El Servidor de directivas de redes puso en cuarentena un usuario
+6277;Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy;El Servidor de directivas de redes concedió acceso a un usuario, pero lo sometió a un período de prueba porque el host no cumplía la directiva de mantenimiento definida
+6278;Network Policy Server granted full access to a user because the host met the defined health policy;El Servidor de directivas de redes concedió acceso total a un usuario porque el host cumplía la directiva de mantenimiento definida
+6279;Network Policy Server locked the user account due to repeated failed authentication attempts;El Servidor de directivas de redes bloqueó la cuenta de usuario debido a varios intentos de autenticación erróneos
+6280;Network Policy Server unlocked the user account;El Servidor de directivas de redes desbloqueó la cuenta de usuario
 6281;Code Integrity determined that the page hashes of an image file are not valid;x
 6400;BranchCache: Received an incorrectly formatted response while discovering availability of content;x
 6401;BranchCache: Received invalid data from a peer. Data discarded;x
@@ -425,3 +428,18 @@
 6423;The installation of this device is forbidden by system policy;x
 6424;The installation of this device was allowed, after having previously been forbidden by policy;x
 8191;Highest System-Defined Audit Message Value;x
+24577;x;Se inició el cifrado del volumen
+24578;x;Se detuvo el cifrado del volumen
+24579;x;Se completó el cifrado del volumen
+24580;x;Se inició el descifrado del volumen
+24581;x;Se detuvo el descifrado del volumen
+24582;x;Se completó el descifrado del volumen
+24583;x;Se inició el subproceso de trabajo de conversión del volumen
+24584;x;Se detuvo temporalmente el subproceso de trabajo de conversión del volumen
+24586;x;Se produjo un error al convertir el volumen
+24588;x;La operación de conversión en el volumen %2 encontró un error de sector dañado. Valide los datos de este volumen
+24592;x;Error al intentar reiniciar automáticamente la conversión en el volumen %2
+24593;x;Escritura de metadatos: el volumen %2 devuelve errores al intentar modificar los metadatos. Si los errores continúan, descifre el volumen
+24594;x;Recompilación de metadatos: error al intentar escribir una copia de los metadatos en el volumen %2 puede aparecer como daños en el disco. Si los errores continúan, descifre el volumen
+24595;x;El volumen %2 contiene clústeres dañados. Estos clústeres se omitirán durante la conversión
+24621;x;Comprobación de estado inicial: transacción de conversión de volumen gradual en %2
