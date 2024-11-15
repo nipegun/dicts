@@ -4,7 +4,6 @@
 9;x;NTFS examinó el mapa de bits del volumen completo
 1100;The event logging service has shut down;Se cerró el servicio de registro de eventos
 1101;Audit events have been dropped by the transport;El transporte quitó algunos eventos de auditoría
-
 1102;The audit log was cleared;Se borró el registro de auditoría
 1104;The security Log is now full;x
 1105;Event log automatic backup;x
